@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.navbar {
+  display: inline;
+}
+a,
+input {
+  border: 1px rgb(99, 98, 94) solid;
+  border-radius: 20px 20px;
+  text-decoration: none;
+  padding: 5px;
+  font-size: large;
+  font-weight: 700;
+}
+a:hover {
+  color: rgb(155, 118, 99);
+  background-color: rgb(99, 98, 94);
+}
+/*change the font family to roboto*/
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgb(155, 118, 99), rgb(99, 98, 94));
+}
+h1 {
+  text-align: center;
+  border-style: double;
+  border-color: rgb(138, 134, 121);
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+video {
+  border-radius: 10px 10px 10px 10px;
+}
+h3 {
+  color: blanchedalmond;
+}
