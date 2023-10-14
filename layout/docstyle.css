@@ -1,0 +1,116 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+::selection {
+  color: white;
+  background-color: #00c3a5;
+}
+header {
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: white;
+  /*box-shadow: 0px 0px 30px 10px #ababab;*/
+  width: 100%;
+}
+.nav {
+  padding: 10px;
+  text-decoration: none;
+  color: #ababab;
+}
+.nav:hover {
+  color: #00c3a5;
+}
+.nav:active {
+  color: #00c3a5;
+}
+
+.title {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #00c3a5;
+}
+#parg {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+#p1,
+#p2 {
+  margin: 15px;
+  padding: 40px;
+}
+.multi-cards {
+  color: white;
+  /*display: grid;*/
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.patient {
+  background-color: #00c3a5;
+  margin: 30px 30px 30px 30px;
+  padding: 40px 20px 40px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  /*flex-direction: column;*/
+}
+.doctor {
+  background-color: #3d83df;
+  margin: 30px 30px 30px 30px;
+  padding: 40px 20px 40px 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
+.clinic {
+  background-color: #1b2734;
+  margin: 30px 30px 30px 30px;
+  padding: 40px 20px 40px 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
+.under-multicards {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#link {
+  flex-wrap: wrap;
+  display: flex;
+}
+.tuot {
+  width: 20px;
+}
+.cards-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards-link > .card {
+  margin: 50px;
+}
+
+.join-us {
+  text-align: center;
+}
+hr {
+  color: #eef2f2;
+}
+footer {
+  text-align: center;
+  color: #ababab;
+}
+select {
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
